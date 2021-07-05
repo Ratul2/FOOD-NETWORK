@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-family: arial;
+    margin-top: 30%;
+    color: rgb(74 74 74);
+    line-height: 55px;
+}
+.haf-width {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-right: 5%;
+    padding-right: 4%;
+}
+
+.flixbel-contaner {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.haf-width img {
+    width: 100%;
+}
+.change {
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+h1 span {
+    color: #fb5200;
+}
+.change p {
+    width: 90%;
+    color: #696969;
+}
+.flixbel-button {
+    border: none;
+    padding: 18px 35px;
+    background: linear-gradient( lightsalmon, tomato);
+    color: #fff;
+    font-family: arial;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.flixbel-button:hover{
+    background: linear-gradient( tomato,lightsalmon);
+
+}
