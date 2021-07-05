@@ -2,6 +2,14 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+#About-Me{
+    background: url(imges/frame7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
 }
 h1{
     font-size: 50px;
@@ -40,7 +48,7 @@ h1 span {
 }
 .flixbel-button {
     border: none;
-    padding: 18px 35px;
+    padding: 18px 40px;
     background: linear-gradient( lightsalmon, tomato);
     color: #fff;
     font-family: arial;
@@ -56,4 +64,7 @@ h1 span {
 .flixbel-button:hover{
     background: linear-gradient( tomato,lightsalmon);
 
+}
+.edt-imges{
+    width: 90%!important;
 }
